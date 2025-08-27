@@ -40,7 +40,7 @@ The goal is to test whether crude oil exhibits mean-reverting behavior and to as
 
 ---
 
-# Conclusions
+## Conclusions
 - Outright crude oil prices are **not stationary** (ADF p≈0.30).  
 - Mean reversion in crude oil is fragile; performance deteriorates in high-volatility regimes (e.g. April 2020 negative WTI shock).  
 - Robust execution modeling (collateral, leverage caps) is critical to avoid unrealistic equity curves.
@@ -48,7 +48,7 @@ The goal is to test whether crude oil exhibits mean-reverting behavior and to as
 
 ---
 
-## ⚡ Next Steps
+##  Next Steps
 - Extend strategy to **calendar spreads (CL1–CL2)** or **inter-commodity spreads (WTI–Brent)**.  
 - Test Ornstein-Uhlenbeck (OU) process fitting instead of rolling z-scores.  
 - Implement walk-forward optimization to reduce overfitting risk.  
